@@ -1,0 +1,30 @@
+body{
+	line-height:1;
+	width:100%;
+	height: 100%;
+	background: url(/Users/yigenliang/github/yigenliang/utilities/images/homebackground/bg.jpg) repeat center center;
+	background-size:100%;
+	text-align: center;
+}
+.nav_bar{
+	float: right;
+	position: relative;
+}
+.main_content{
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+.content{
+	position: relative;
+	padding-top: 20%;
+}
+.second_class{
+	height: 200px;
+    width: 360px;
+    background: #fff;
+	opacity:0.4;
+	filter:alpha(opacity=40); /* 针对 IE8 以及更早的版本 */
+}
