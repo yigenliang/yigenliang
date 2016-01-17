@@ -5,20 +5,24 @@ package ssh.hibernate.pojo;
  */
 public class Album extends AbstractAlbum implements java.io.Serializable {
 
-	// Constructors
+    // Constructors
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
 
-	/** default constructor */
-	public Album() {
-	}
+    /**
+     * default constructor
+     */
+    public Album() {
+    }
 
-	/** full constructor */
-	public Album(String discription) {
-		super(discription);
-	}
+    /**
+     * full constructor
+     */
+    public Album(String discription) {
+        super(discription);
+    }
 
 }

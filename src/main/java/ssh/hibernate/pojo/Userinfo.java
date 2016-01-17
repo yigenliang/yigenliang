@@ -5,20 +5,24 @@ package ssh.hibernate.pojo;
  */
 public class Userinfo extends AbstractUserinfo implements java.io.Serializable {
 
-	// Constructors
+    // Constructors
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
 
-	/** default constructor */
-	public Userinfo() {
-	}
+    /**
+     * default constructor
+     */
+    public Userinfo() {
+    }
 
-	/** full constructor */
-	public Userinfo(String password, String name) {
-		super(password, name);
-	}
+    /**
+     * full constructor
+     */
+    public Userinfo(String password, String name) {
+        super(password, name);
+    }
 
 }

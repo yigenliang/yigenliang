@@ -1,10 +1,9 @@
-package com.utilities;
+package ssh.utilities;
 
 import java.security.MessageDigest;
 
 public final class passwordEncode {
-    /***
-     *
+    /**
      * @param inStr
      * @return
      */
@@ -30,8 +29,10 @@ public final class passwordEncode {
         }
         return hexValue.toString();
     }
+
     /**
      * test
+     *
      * @param args
      * @throws Exception
      */

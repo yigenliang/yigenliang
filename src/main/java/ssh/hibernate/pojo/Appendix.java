@@ -5,20 +5,24 @@ package ssh.hibernate.pojo;
  */
 public class Appendix extends AbstractAppendix implements java.io.Serializable {
 
-	// Constructors
+    // Constructors
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
 
-	/** default constructor */
-	public Appendix() {
-	}
+    /**
+     * default constructor
+     */
+    public Appendix() {
+    }
 
-	/** full constructor */
-	public Appendix(Integer articleid, String brief) {
-		super(articleid, brief);
-	}
+    /**
+     * full constructor
+     */
+    public Appendix(Integer articleid, String brief) {
+        super(articleid, brief);
+    }
 
 }

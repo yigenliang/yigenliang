@@ -5,25 +5,31 @@ package ssh.hibernate.pojo;
  */
 public class Pictures extends AbstractPictures implements java.io.Serializable {
 
-	// Constructors
+    // Constructors
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
 
-	/** default constructor */
-	public Pictures() {
-	}
+    /**
+     * default constructor
+     */
+    public Pictures() {
+    }
 
-	/** minimal constructor */
-	public Pictures(Integer albumid) {
-		super(albumid);
-	}
+    /**
+     * minimal constructor
+     */
+    public Pictures(Integer albumid) {
+        super(albumid);
+    }
 
-	/** full constructor */
-	public Pictures(Integer albumid, String content) {
-		super(albumid, content);
-	}
+    /**
+     * full constructor
+     */
+    public Pictures(Integer albumid, String content) {
+        super(albumid, content);
+    }
 
 }

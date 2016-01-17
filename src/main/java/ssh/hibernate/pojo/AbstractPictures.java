@@ -7,57 +7,63 @@ package ssh.hibernate.pojo;
 
 public abstract class AbstractPictures implements java.io.Serializable {
 
-	// Fields
+    // Fields
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-	private Integer pictureid;
-	private Integer albumid;
-	private String content;
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
+    private Integer pictureid;
+    private Integer albumid;
+    private String content;
 
-	// Constructors
+    // Constructors
 
-	/** default constructor */
-	public AbstractPictures() {
-	}
+    /**
+     * default constructor
+     */
+    public AbstractPictures() {
+    }
 
-	/** minimal constructor */
-	public AbstractPictures(Integer albumid) {
-		this.albumid = albumid;
-	}
+    /**
+     * minimal constructor
+     */
+    public AbstractPictures(Integer albumid) {
+        this.albumid = albumid;
+    }
 
-	/** full constructor */
-	public AbstractPictures(Integer albumid, String content) {
-		this.albumid = albumid;
-		this.content = content;
-	}
+    /**
+     * full constructor
+     */
+    public AbstractPictures(Integer albumid, String content) {
+        this.albumid = albumid;
+        this.content = content;
+    }
 
-	// Property accessors
+    // Property accessors
 
-	public Integer getPictureid() {
-		return this.pictureid;
-	}
+    public Integer getPictureid() {
+        return this.pictureid;
+    }
 
-	public void setPictureid(Integer pictureid) {
-		this.pictureid = pictureid;
-	}
+    public void setPictureid(Integer pictureid) {
+        this.pictureid = pictureid;
+    }
 
-	public Integer getAlbumid() {
-		return this.albumid;
-	}
+    public Integer getAlbumid() {
+        return this.albumid;
+    }
 
-	public void setAlbumid(Integer albumid) {
-		this.albumid = albumid;
-	}
+    public void setAlbumid(Integer albumid) {
+        this.albumid = albumid;
+    }
 
-	public String getContent() {
-		return this.content;
-	}
+    public String getContent() {
+        return this.content;
+    }
 
-	public void setContent(String content) {
-		this.content = content;
-	}
+    public void setContent(String content) {
+        this.content = content;
+    }
 
 }

@@ -5,20 +5,24 @@ package ssh.hibernate.pojo;
  */
 public class Category extends AbstractCategory implements java.io.Serializable {
 
-	// Constructors
+    // Constructors
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
 
-	/** default constructor */
-	public Category() {
-	}
+    /**
+     * default constructor
+     */
+    public Category() {
+    }
 
-	/** full constructor */
-	public Category(String name) {
-		super(name);
-	}
+    /**
+     * full constructor
+     */
+    public Category(String name) {
+        super(name);
+    }
 
 }

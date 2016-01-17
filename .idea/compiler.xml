@@ -26,5 +26,8 @@
         <module name="ygl-blog" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ygl-blog" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>

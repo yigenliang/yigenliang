@@ -7,21 +7,25 @@ import java.util.Date;
  */
 public class Life extends AbstractLife implements java.io.Serializable {
 
-	// Constructors
+    // Constructors
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
 
-	/** default constructor */
-	public Life() {
-	}
+    /**
+     * default constructor
+     */
+    public Life() {
+    }
 
-	/** full constructor */
-	public Life(Integer categoryid, Integer permission, String pictureaddr,
-			String title, Date edittime, String content) {
-		super(categoryid, permission, pictureaddr, title, edittime, content);
-	}
+    /**
+     * full constructor
+     */
+    public Life(Integer categoryid, Integer permission, String pictureaddr,
+                String title, Date edittime, String content) {
+        super(categoryid, permission, pictureaddr, title, edittime, content);
+    }
 
 }

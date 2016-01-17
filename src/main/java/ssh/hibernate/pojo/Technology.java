@@ -4,23 +4,27 @@ package ssh.hibernate.pojo;
  * Technology entity. @author MyEclipse Persistence Tools
  */
 public class Technology extends AbstractTechnology implements
-		java.io.Serializable {
+        java.io.Serializable {
 
-	// Constructors
+    // Constructors
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
 
-	/** default constructor */
-	public Technology() {
-	}
+    /**
+     * default constructor
+     */
+    public Technology() {
+    }
 
-	/** full constructor */
-	public Technology(Integer permission, Integer categoryid, String title,
-			String content) {
-		super(permission, categoryid, title, content);
-	}
+    /**
+     * full constructor
+     */
+    public Technology(Integer permission, Integer categoryid, String title,
+                      String content) {
+        super(permission, categoryid, title, content);
+    }
 
 }

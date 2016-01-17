@@ -7,42 +7,46 @@ package ssh.hibernate.pojo;
 
 public abstract class AbstractCategory implements java.io.Serializable {
 
-	// Fields
+    // Fields
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-	private Integer categoryid;
-	private String name;
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
+    private Integer categoryid;
+    private String name;
 
-	// Constructors
+    // Constructors
 
-	/** default constructor */
-	public AbstractCategory() {
-	}
+    /**
+     * default constructor
+     */
+    public AbstractCategory() {
+    }
 
-	/** full constructor */
-	public AbstractCategory(String name) {
-		this.name = name;
-	}
+    /**
+     * full constructor
+     */
+    public AbstractCategory(String name) {
+        this.name = name;
+    }
 
-	// Property accessors
+    // Property accessors
 
-	public Integer getCategoryid() {
-		return this.categoryid;
-	}
+    public Integer getCategoryid() {
+        return this.categoryid;
+    }
 
-	public void setCategoryid(Integer categoryid) {
-		this.categoryid = categoryid;
-	}
+    public void setCategoryid(Integer categoryid) {
+        this.categoryid = categoryid;
+    }
 
-	public String getName() {
-		return this.name;
-	}
+    public String getName() {
+        return this.name;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
 }
